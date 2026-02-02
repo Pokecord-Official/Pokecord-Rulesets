@@ -1,6 +1,6 @@
 {
   "1467831851359010836": {
-    "description": "PvE Kanal – wilde Pokémon, Spawns und Grinding",
+    "description": "PvE – Spawns, Grinding, freies Spielen",
     "pokemon": {
       "minLevel": 1,
       "maxLevel": 100,
@@ -8,75 +8,106 @@
       "maxPokemon": 6,
       "allowedGens": [],
       "allowedRarities": [],
-      "legal": {
-        "types": [],
-        "species": []
-      },
-      "illegal": {
-        "types": [],
-        "species": []
-      }
+      "legal": { "types": [], "species": [] },
+      "illegal": { "types": [], "species": [] }
     },
     "moves": {
-      "legal": {
-        "types": [],
-        "names": []
-      },
+      "legal": { "types": [], "names": [] },
+      "illegal": { "types": [], "names": [] }
+    },
+    "abilities": { "legal": [], "illegal": [] },
+    "items": { "legal": [], "illegal": [] }
+  },
+
+  "1467831988160434239": {
+    "description": "Arena Low – Level 1–25",
+    "pokemon": {
+      "minLevel": 1,
+      "maxLevel": 25,
+      "minPokemon": 1,
+      "maxPokemon": 3,
+      "allowedGens": [],
+      "allowedRarities": [],
+      "legal": { "types": [], "species": [] },
+      "illegal": { "types": [], "species": [] }
+    },
+    "moves": {
+      "legal": { "types": [], "names": [] },
       "illegal": {
         "types": [],
-        "names": []
+        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize"]
       }
     },
-    "abilities": {
-      "legal": [],
-      "illegal": []
-    },
-    "items": {
-      "legal": [],
-      "illegal": []
-    }
+    "abilities": { "legal": [], "illegal": [] },
+    "items": { "legal": [], "illegal": ["all"] }
   },
-  "1467831988160434239": {
-    "description": "PvP Arena – keine Items, keine Legendären",
+
+  "1467850676808847371": {
+    "description": "Arena Mid – Level 26–50",
     "pokemon": {
-      "minLevel": 10,
-      "maxLevel": 100,
+      "minLevel": 26,
+      "maxLevel": 50,
       "minPokemon": 3,
+      "maxPokemon": 5,
+      "allowedGens": [],
+      "allowedRarities": [],
+      "legal": { "types": [], "species": [] },
+      "illegal": { "types": [], "species": [] }
+    },
+    "moves": {
+      "legal": { "types": [], "names": [] },
+      "illegal": {
+        "types": [],
+        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize", "Baton Pass"]
+      }
+    },
+    "abilities": { "legal": [], "illegal": [] },
+    "items": { "legal": [], "illegal": ["all"] }
+  },
+
+  "1467850710480846989": {
+    "description": "Arena High – Level 51–75",
+    "pokemon": {
+      "minLevel": 51,
+      "maxLevel": 75,
+      "minPokemon": 5,
       "maxPokemon": 6,
       "allowedGens": [],
       "allowedRarities": [],
-      "legal": {
-        "types": [],
-        "species": []
-      },
-      "illegal": {
-        "types": [],
-        "species": [
-          "Mewtwo",
-          "Rayquaza",
-          "Arceus"
-        ]
-      }
+      "legal": { "types": [], "species": [] },
+      "illegal": { "types": [], "species": [] }
     },
     "moves": {
-      "legal": {
-        "types": [],
-        "names": []
-      },
+      "legal": { "types": [], "names": [] },
       "illegal": {
         "types": [],
-        "names": []
+        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize", "Baton Pass"]
       }
     },
-    "abilities": {
-      "legal": [],
-      "illegal": []
+    "abilities": { "legal": [], "illegal": [] },
+    "items": { "legal": [], "illegal": ["all"] }
+  },
+
+  "1467850744853041223": {
+    "description": "Arena Champion – Level 76–100",
+    "pokemon": {
+      "minLevel": 76,
+      "maxLevel": 100,
+      "minPokemon": 6,
+      "maxPokemon": 6,
+      "allowedGens": [],
+      "allowedRarities": [],
+      "legal": { "types": [], "species": [] },
+      "illegal": { "types": [], "species": [] }
     },
-    "items": {
-      "legal": [],
-      "illegal": [
-        "all"
-      ]
-    }
+    "moves": {
+      "legal": { "types": [], "names": [] },
+      "illegal": {
+        "types": [],
+        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize", "Baton Pass"]
+      }
+    },
+    "abilities": { "legal": [], "illegal": [] },
+    "items": { "legal": [], "illegal": ["all"] }
   }
 }

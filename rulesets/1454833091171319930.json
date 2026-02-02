@@ -47,7 +47,7 @@
       }
     },
     "abilities": { "legal": [], "illegal": [] },
-    "items": { "legal": [], "illegal": ["all"] }
+    "items": { "legal": ["none"], "illegal": [] }
   },
 
   "1467850676808847371": {
@@ -78,7 +78,7 @@
       }
     },
     "abilities": { "legal": [], "illegal": [] },
-    "items": { "legal": [], "illegal": ["all"] }
+    "items": { "legal": ["none"], "illegal": [] }
   },
 
   "1467850710480846989": {
@@ -109,7 +109,7 @@
       }
     },
     "abilities": { "legal": [], "illegal": [] },
-    "items": { "legal": [], "illegal": ["all"] }
+    "items": { "legal": ["none"], "illegal": [] }
   },
 
   "1467850744853041223": {
@@ -140,6 +140,6 @@
       }
     },
     "abilities": { "legal": [], "illegal": [] },
-    "items": { "legal": [], "illegal": ["all"] }
+    "items": { "legal": ["none"], "illegal": [] }
   }
 }

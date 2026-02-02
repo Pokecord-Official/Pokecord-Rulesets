@@ -1,24 +1,82 @@
 {
-  "serverId": "1454833091171319930",
-  "channels": {
-    "1467831851359010836": {
-      "allowPvE": true,
-      "allowPvP": false,
-      "allowSpawn": true,
-      "battleRules": {
-        "items": true,
-        "legendaries": true
+  "1467831851359010836": {
+    "description": "PvE Kanal – wilde Pokémon, Spawns und Grinding",
+    "pokemon": {
+      "minLevel": 1,
+      "maxLevel": 100,
+      "minPokemon": 1,
+      "maxPokemon": 6,
+      "allowedGens": [],
+      "allowedRarities": [],
+      "legal": {
+        "types": [],
+        "species": []
+      },
+      "illegal": {
+        "types": [],
+        "species": []
       }
     },
-    "1467831988160434239": {
-      "allowPvE": false,
-      "allowPvP": true,
-      "allowSpawn": false,
-      "battleRules": {
-        "items": true,
-        "legendaries": true,
-        "teamSize": 6
+    "moves": {
+      "legal": {
+        "types": [],
+        "names": []
+      },
+      "illegal": {
+        "types": [],
+        "names": []
       }
+    },
+    "abilities": {
+      "legal": [],
+      "illegal": []
+    },
+    "items": {
+      "legal": [],
+      "illegal": []
+    }
+  },
+  "1467831988160434239": {
+    "description": "PvP Arena – keine Items, keine Legendären",
+    "pokemon": {
+      "minLevel": 10,
+      "maxLevel": 100,
+      "minPokemon": 3,
+      "maxPokemon": 6,
+      "allowedGens": [],
+      "allowedRarities": [],
+      "legal": {
+        "types": [],
+        "species": []
+      },
+      "illegal": {
+        "types": [],
+        "species": [
+          "Mewtwo",
+          "Rayquaza",
+          "Arceus"
+        ]
+      }
+    },
+    "moves": {
+      "legal": {
+        "types": [],
+        "names": []
+      },
+      "illegal": {
+        "types": [],
+        "names": []
+      }
+    },
+    "abilities": {
+      "legal": [],
+      "illegal": []
+    },
+    "items": {
+      "legal": [],
+      "illegal": [
+        "all"
+      ]
     }
   }
 }

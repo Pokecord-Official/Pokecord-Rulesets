@@ -35,7 +35,15 @@
       "legal": { "types": [], "names": [] },
       "illegal": {
         "types": [],
-        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize"]
+        "names": [
+      "fissure",
+      "sheer-cold",
+      "guillotine",
+      "horn-drill",
+      "double-team",
+      "minimize",
+      "baton-pass"
+        ]
       }
     },
     "abilities": { "legal": [], "illegal": [] },
@@ -58,7 +66,15 @@
       "legal": { "types": [], "names": [] },
       "illegal": {
         "types": [],
-        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize", "Baton Pass"]
+        "names": [
+      "fissure",
+      "sheer-cold",
+      "guillotine",
+      "horn-drill",
+      "double-team",
+      "minimize",
+      "baton-pass"
+        ]
       }
     },
     "abilities": { "legal": [], "illegal": [] },
@@ -81,7 +97,15 @@
       "legal": { "types": [], "names": [] },
       "illegal": {
         "types": [],
-        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize", "Baton Pass"]
+        "names": [
+      "fissure",
+      "sheer-cold",
+      "guillotine",
+      "horn-drill",
+      "double-team",
+      "minimize",
+      "baton-pass"
+        ]
       }
     },
     "abilities": { "legal": [], "illegal": [] },
@@ -104,7 +128,15 @@
       "legal": { "types": [], "names": [] },
       "illegal": {
         "types": [],
-        "names": ["Fissure", "Sheer Cold", "Guillotine", "Horn Drill", "Double Team", "Minimize", "Baton Pass"]
+        "names": [
+      "fissure",
+      "sheer-cold",
+      "guillotine",
+      "horn-drill",
+      "double-team",
+      "minimize",
+      "baton-pass"
+        ]
       }
     },
     "abilities": { "legal": [], "illegal": [] },

@@ -1,0 +1,24 @@
+{
+  "serverId": "1454833091171319930",
+  "channels": {
+    "1467831851359010836": {
+      "allowPvE": true,
+      "allowPvP": false,
+      "allowSpawn": true,
+      "battleRules": {
+        "items": true,
+        "legendaries": true
+      }
+    },
+    "1467831988160434239": {
+      "allowPvE": false,
+      "allowPvP": true,
+      "allowSpawn": false,
+      "battleRules": {
+        "items": true,
+        "legendaries": true,
+        "teamSize": 6
+      }
+    }
+  }
+}

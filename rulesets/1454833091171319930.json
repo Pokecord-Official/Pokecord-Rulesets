@@ -45,7 +45,7 @@
   "1467850676808847371": {
     "description": "Arena Mid – Level 26–50",
     "pokemon": {
-      "minLevel": 26,
+      "minLevel": 25,
       "maxLevel": 50,
       "minPokemon": 3,
       "maxPokemon": 5,
